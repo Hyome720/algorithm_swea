@@ -15,7 +15,7 @@ def magnetic(table):
         while i < 100:
             if table[i][j] == 0:
                 i += 1
-            elif drop == 0 and table[i][j ] == 1:
+            elif drop == 0 and table[i][j] == 1:
                 drop = 1
                 i += 1
             elif drop == 1 and table[i][j] == 2:
